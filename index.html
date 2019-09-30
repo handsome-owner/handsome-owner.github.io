@@ -193,6 +193,7 @@
 <p>开始安装了：</p>
 <p><code>npm install -g hexo</code></p>
 <p>会在文件夹中出现新的文件</p>
+<p><code>hexo init</code></p>
 <p>安装依赖包，hexo 会自动在自动在文件夹中建立网站所需的文件。</p>
 <p><code>npm install</code></p>
 <p>生成静态页面到public目录（静态博客就在这个位置）</p>
@@ -216,7 +217,7 @@
 <p>会提示你输入github的用户名 密码。</p>
 <p>……..  到现在为止  就已经部署完了  可以在浏览器中 输入 github的地址 查看：</p>
 <p>eg:  在这里我的地址为： <a href="https://handsome-owner.github.io/">https://handsome-owner.github.io/</a></p>
-<p><img src="file:///D:/soft/youdaoyun_note/file_save/m18435154263@163.com/13b8abde875b458da951a2e5b2e62623/clipboard.png" alt="img"></p>
+<p><img src="//handsome-owner.github.io/2019/09/30/使用hexo来搭建个人网站/E:3.png" alt="img"></p>
 <h4 id="修改更换hexo的主题："><a href="#修改更换hexo的主题：" class="headerlink" title="修改更换hexo的主题："></a><strong>修改更换hexo的主题：</strong></h4><p><a href="https://hexo.io/themes" target="_blank" rel="noopener">官网地址</a> </p>
 <h5 id="个人喜欢的主题："><a href="#个人喜欢的主题：" class="headerlink" title="个人喜欢的主题："></a><strong>个人喜欢的主题：</strong></h5><p>yilia主题</p>
 <p><code>git clone https://github.com/litten/hexo-theme-yilia.git  themes/yilia</code></p>
@@ -235,11 +236,12 @@
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Header</span></span><br><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="string">主页:</span> <span class="string">/</span></span><br><span class="line">  <span class="string">所有文章:</span> <span class="string">/archives</span></span><br><span class="line">  <span class="comment"># 随笔: /tags/随笔</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># SubNav</span></span><br><span class="line"><span class="attr">subnav:</span></span><br><span class="line"><span class="attr">  github:</span> <span class="string">"#"</span></span><br><span class="line"><span class="attr">  weibo:</span> <span class="string">"#"</span></span><br><span class="line"><span class="attr">  rss:</span> <span class="string">"#"</span></span><br><span class="line"><span class="attr">  zhihu:</span> <span class="string">"#"</span></span><br><span class="line">  <span class="comment">#douban: "#"</span></span><br><span class="line">  <span class="comment">#mail: "#"</span></span><br><span class="line">  <span class="comment">#facebook: "#"</span></span><br><span class="line">  <span class="comment">#google: "#"</span></span><br><span class="line">  <span class="comment">#twitter: "#"</span></span><br><span class="line">  <span class="comment">#linkedin: "#"</span></span><br><span class="line"></span><br><span class="line"><span class="attr">rss:</span> <span class="string">/atom.xml</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Content</span></span><br><span class="line"><span class="attr">excerpt_link:</span> <span class="string">more</span></span><br><span class="line"><span class="attr">fancybox:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">mathjax:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Miscellaneous</span></span><br><span class="line"><span class="attr">google_analytics:</span> <span class="string">''</span></span><br><span class="line"><span class="attr">favicon:</span> <span class="string">/favicon.png</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#你的头像url</span></span><br><span class="line"><span class="attr">avatar:</span> <span class="string">/img/1.jpg</span>    <span class="comment">#根目录下img文件夹下</span></span><br><span class="line"><span class="comment">#是否开启分享</span></span><br><span class="line"><span class="attr">share:</span> <span class="literal">true</span></span><br><span class="line"><span class="comment">#是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key（http://duoshuo-key.duoshuo.com/）</span></span><br><span class="line"><span class="comment">#若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论</span></span><br><span class="line"><span class="attr">duoshuo:</span> <span class="literal">true</span></span><br><span class="line"><span class="comment">#是否开启云标签</span></span><br><span class="line"><span class="attr">tagcloud:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#是否开启友情链接</span></span><br><span class="line"><span class="comment">#不开启——</span></span><br><span class="line"><span class="comment">#friends: false</span></span><br><span class="line"><span class="comment">#开启——</span></span><br><span class="line"><span class="attr">friends:</span></span><br><span class="line">  <span class="string">奥巴马的博客:</span> <span class="attr">http://localhost:4000/</span></span><br><span class="line">  <span class="string">卡卡的美丽传说:</span> <span class="attr">http://localhost:4000/</span></span><br><span class="line">  <span class="string">本泽马的博客:</span> <span class="attr">http://localhost:4000/</span></span><br><span class="line">  <span class="string">吉格斯的博客:</span> <span class="attr">http://localhost:4000/</span></span><br><span class="line">  <span class="string">习大大大不同:</span> <span class="attr">http://localhost:4000/</span></span><br><span class="line">  <span class="string">托蒂的博客:</span> <span class="attr">http://localhost:4000/</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#是否开启“关于我”。</span></span><br><span class="line"><span class="comment">#不开启——</span></span><br><span class="line"><span class="comment">#aboutme: false</span></span><br><span class="line"><span class="comment">#开启——</span></span><br><span class="line"><span class="attr">aboutme:</span> <span class="string">马哈马哈</span> <span class="string">叽咕叽咕</span> <span class="string">.....</span></span><br></pre></td></tr></table></figure>
 
 <h4 id="新建博客："><a href="#新建博客：" class="headerlink" title="新建博客："></a><strong>新建博客：</strong></h4><p><code>hexo new &quot;使用hexo来搭建个人网站&quot;</code></p>
-<p><img src="file:///D:/soft/youdaoyun_note/file_save/m18435154263@163.com/3471ee85833f423e8bb1c7fbae266ede/clipboard.png" alt="img"></p>
+<p><img src="//handsome-owner.github.io/2019/09/30/使用hexo来搭建个人网站/4.png" alt="img"></p>
 <p>可以看到在source目录中 生成了一个md文件。 然后编辑完毕之后</p>
 <p>可以在本地先查看一下</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate  或 hexo g </span><br><span class="line">hexo server 或 hexo s</span><br></pre></td></tr></table></figure>
 
+<h4 id="参考链接："><a href="#参考链接：" class="headerlink" title="参考链接："></a>参考链接：</h4><p><a href="https://blog.csdn.net/erchowyo/article/details/54407601" target="_blank" rel="noopener">https://blog.csdn.net/erchowyo/article/details/54407601</a></p>
 
       
 
@@ -253,7 +255,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo 软件安装</a>
         		</li>
       		
 		</ul>
@@ -461,7 +463,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">hexo</a>
+                <a href="javascript:void(0)" class="js-tag color5">hexo 软件安装</a>
               </li>
             
             <div class="clearfix"></div>
